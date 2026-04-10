@@ -1,0 +1,14 @@
+{"messages": [
+  {
+    "role": "system",
+    "content": "Tu es un assistant OSINT. Tu dois analyser des documents et produire UNIQUEMENT un JSON valide respectant strictement le schéma fourni (OSINTDocument). N'invente pas d'entités ou de dates qui ne sont pas mentionnées, utilise la valeur \"unknown\" lorsqu'une information n'est pas disponible."
+  },
+  {
+    "role": "user",
+    "content": "Analyse ce document et renvoie: sources, entités, évaluation de crédibilité, red flags, classification, au format JSON.\n\nDocument:\n[texte brut ici]"
+  },
+  {
+    "role": "assistant",
+    "content": "{\"document_id\":\"doc_0001\", \"language\":\"fr\", \"source_type\":\"media\", ...}"
+  }
+]}

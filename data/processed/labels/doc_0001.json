@@ -1,0 +1,73 @@
+{
+  "document_id": "doc_0001",
+  "language": "fr",
+  "source_type": "media",
+  "source_name": "Al Hamma News",
+  "source_url": "https://example.org/article/protestation-el-hamma",
+  "publication_date": "2025-03-12",
+  "retrieval_date": "2025-03-13",
+  "claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "Selon des habitants, la police a tiré des gaz lacrymogènes pour disperser la foule.",
+      "claim_type": "event",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c2",
+      "claim_text": "Les autorités affirment qu’aucune arrestation n’a eu lieu.",
+      "claim_type": "denial",
+      "stance": "asserted"
+    }
+  ],
+  "entities": {
+    "persons": [],
+    "organizations": ["police", "autorités locales"],
+    "locations": ["El Hamma", "gouvernorat de Gabès"],
+    "dates": ["mardi soir"],
+    "events": ["manifestation"],
+    "handles": [],
+    "websites": []
+  },
+  "geolocation": {
+    "raw_text": "El Hamma, dans le gouvernorat de Gabès",
+    "normalized_name": "El Hamma",
+    "country": "TN",
+    "admin1": "Gabès",
+    "lat": 33.8850,
+    "lon": 9.7960,
+    "confidence": 0.85
+  },
+  "credibility_assessment": {
+    "label": "medium",
+    "score": 60,
+    "rationale": "Média local citant des habitants et les autorités, sans documents officiels ni preuves visuelles publiées.",
+    "evidence_present": ["eyewitness_testimony", "official_statement"],
+    "verification_status": "partially_verified"
+  },
+  "red_flags": [
+    {
+      "type": "unsupported_claim",
+      "span_text": "la police a tiré des gaz lacrymogènes",
+      "explanation": "Aucune image ou vidéo publiée pour corroborer l'usage de gaz lacrymogènes."
+    },
+    {
+      "type": "sensational_language",
+      "span_text": "la ville était en état de siège",
+      "explanation": "Expression exagérée qui n'est pas étayée par des détails factuels."
+    }
+  ],
+  "classification": {
+    "information_disorder": "reporting",
+    "topic": ["protest", "policing"],
+    "country": ["TN"],
+    "actor": ["police", "autorités locales"],
+    "violation_type": ["freedom_of_assembly"],
+    "crime_type": []
+  },
+  "cross_reference_needs": [
+    "Vérifier l'usage de gaz lacrymogènes via vidéos OSINT et témoignages supplémentaires.",
+    "Comparer les déclarations des autorités avec des rapports d’ONG locales."
+  ],
+  "output_version": "1.0"
+}

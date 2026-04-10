@@ -1,0 +1,61 @@
+{
+  "document_id": "doc_0001",
+  "language": "fr",
+  "source_type": "media",
+  "source_name": "Journal X",
+  "source_url": "https://example.com/article",
+  "publication_date": "2025-02-14",
+  "retrieval_date": "2025-02-15",
+  "claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "Selon le ministre de l’Intérieur, trois personnes ont été arrêtées lors de la manifestation de vendredi.",
+      "claim_type": "event",
+      "stance": "asserted"
+    }
+  ],
+  "entities": {
+    "persons": ["ministre de l’Intérieur"],
+    "organizations": ["ministère de l’Intérieur"],
+    "locations": ["Tunis"],
+    "dates": ["vendredi"],
+    "events": ["manifestation"],
+    "handles": [],
+    "websites": []
+  },
+  "geolocation": {
+    "raw_text": "centre-ville de Tunis",
+    "normalized_name": "Tunis",
+    "country": "TN",
+    "admin1": "Tunis",
+    "lat": 36.8008,
+    "lon": 10.1800,
+    "confidence": 0.8
+  },
+  "credibility_assessment": {
+    "label": "medium",
+    "score": 65,
+    "rationale": "Source médiatique citant un ministre sans document officiel publié.",
+    "evidence_present": ["official_statement"],
+    "verification_status": "partially_verified"
+  },
+  "red_flags": [
+    {
+      "type": "unsupported_claim",
+      "span_text": "trois personnes ont été arrêtées",
+      "explanation": "Aucune liste de personnes arrêtées ni référence à un document officiel."
+    }
+  ],
+  "classification": {
+    "information_disorder": "reporting",
+    "topic": ["protest", "policing"],
+    "country": ["TN"],
+    "actor": ["ministère de l’Intérieur"],
+    "violation_type": [],
+    "crime_type": []
+  },
+  "cross_reference_needs": [
+    "Vérifier les arrestations auprès d’ONG locales et rapports d’observateurs."
+  ],
+  "output_version": "1.0"
+}
