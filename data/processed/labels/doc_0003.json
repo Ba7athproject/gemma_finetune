@@ -1,0 +1,95 @@
+{
+  "document_id": "doc_0003",
+  "language": "fr",
+  "source_type": "social",
+  "source_name": "Canal Telegram anonyme",
+  "source_url": null,
+  "publication_date": null,
+  "retrieval_date": null,
+  "claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "La vidéo montrerait des affrontements violents et des voitures incendiées à Tunis.",
+      "claim_type": "event",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c2",
+      "claim_text": "La Tunisie serait en train de brûler à cause des migrants illégaux.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c3",
+      "claim_text": "Les médias locaux et les autorités cacheraient la situation réelle.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    }
+  ],
+  "entities": {
+    "persons": [],
+    "organizations": [],
+    "locations": [
+      "Tunis",
+      "Tunisie"
+    ],
+    "dates": [],
+    "events": [],
+    "handles": [],
+    "websites": []
+  },
+  "geolocation": {
+    "raw_text": "Tunis",
+    "normalized_name": "Tunis",
+    "country": "TN",
+    "admin1": "Tunis",
+    "lat": null,
+    "lon": null,
+    "confidence": 0.5
+  },
+  "credibility_assessment": {
+    "label": "low",
+    "score": 20,
+    "rationale": "Message anonyme réagissant à une vidéo sans contexte. Aucune indication de date ni de lieu vérifiable, et accusations généralisantes contre migrants et médias.",
+    "evidence_present": [
+      "video_without_context"
+    ],
+    "verification_status": "unverified"
+  },
+  "red_flags": [
+    {
+      "type": "metadata_conflict",
+      "span_text": "cette vidéo tourne partout sur Telegram",
+      "explanation": "Les vidéos virales sur Telegram sont souvent recyclées et sorties de leur contexte (date et lieu non vérifiés)."
+    },
+    {
+      "type": "sensational_language",
+      "span_text": "la Tunisie est en train de brûler",
+      "explanation": "Formule exagérée sans détails factuels."
+    },
+    {
+      "type": "unsupported_claim",
+      "span_text": "à cause des migrants illégaux",
+      "explanation": "Lien de causalité affirmé sans preuve."
+    }
+  ],
+  "classification": {
+    "information_disorder": "misinformation",
+    "topic": [
+      "migration",
+      "security",
+      "disorder"
+    ],
+    "country": [
+      "TN"
+    ],
+    "actor": [],
+    "violation_type": [],
+    "crime_type": []
+  },
+  "cross_reference_needs": [
+    "Vérifier l'origine réelle de la vidéo (recherche inversée, métadonnées, articles de fact-checking).",
+    "Comparer avec des dépêches et rapports indépendants sur des affrontements récents à Tunis."
+  ],
+  "output_version": "1.0"
+}

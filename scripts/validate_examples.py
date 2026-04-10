@@ -10,7 +10,7 @@ from schemas.osint import OSINTDocument
 
 
 def main():
-    example_path = ROOT / "data" / "processed" / "labels" / "doc_0001.json"
+    example_path = ROOT / "data" / "processed" / "labels" / "doc_0005.json"
 
     if not example_path.exists():
         raise SystemExit(f"{example_path} n'existe pas encore.")

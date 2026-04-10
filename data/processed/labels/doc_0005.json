@@ -1,0 +1,87 @@
+{
+  "document_id": "doc_0005",
+  "language": "fr",
+  "source_type": "social",
+  "source_name": "Message anonyme (groupe fermé)",
+  "source_url": null,
+  "publication_date": null,
+  "retrieval_date": null,
+  "claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "Une conspiration serait préparée depuis des années par des organisations étrangères et leurs relais locaux.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c2",
+      "claim_text": "Les migrants, les ONG et certains médias seraient utilisés pour déstabiliser le pays et imposer un nouveau régime.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c3",
+      "claim_text": "Les organisations qui dénoncent la répression seraient en réalité les architectes de la désinformation.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    }
+  ],
+  "entities": {
+    "persons": [],
+    "organizations": [
+      "ONG",
+      "médias"
+    ],
+    "locations": [],
+    "dates": [],
+    "events": [],
+    "handles": [],
+    "websites": []
+  },
+  "geolocation": {
+    "raw_text": null,
+    "normalized_name": null,
+    "country": null,
+    "admin1": null,
+    "lat": null,
+    "lon": null,
+    "confidence": null
+  },
+  "credibility_assessment": {
+    "label": "low",
+    "score": 10,
+    "rationale": "Message complotiste sans faits vérifiables, qui désigne des catégories entières (migrants, ONG, médias) comme ennemis. Absence totale de sources et de données.",
+    "evidence_present": [],
+    "verification_status": "unverified"
+  },
+  "red_flags": [
+    {
+      "type": "sensational_language",
+      "span_text": "plan préparé depuis des années",
+      "explanation": "Rhétorique complotiste qui suggère un plan global sans aucune preuve."
+    },
+    {
+      "type": "unsupported_claim",
+      "span_text": "Ils utilisent les migrants, les ONG et certains médias pour déstabiliser le pays",
+      "explanation": "Généralisation accusatoire sans exemples ou éléments factuels."
+    }
+  ],
+  "classification": {
+    "information_disorder": "propaganda",
+    "topic": [
+      "disinformation",
+      "security",
+      "migration",
+      "ngo"
+    ],
+    "country": [],
+    "actor": [],
+    "violation_type": [],
+    "crime_type": []
+  },
+  "cross_reference_needs": [
+    "Mettre en regard ce narratif avec des enquêtes indépendantes sur les campagnes de désinformation et les attaques contre ONG/médias.",
+    "Documenter l'usage du vocabulaire complotiste dans les discours en ligne."
+  ],
+  "output_version": "1.0"
+}

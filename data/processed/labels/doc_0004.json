@@ -1,0 +1,88 @@
+{
+  "document_id": "doc_0004",
+  "language": "fr",
+  "source_type": "official",
+  "source_name": "Ministère de l'intérieur",
+  "source_url": null,
+  "publication_date": null,
+  "retrieval_date": null,
+  "claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "Des rumeurs et de fausses informations diffusées sur les réseaux sociaux porteraient atteinte à la sécurité nationale et à l'image du pays.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c2",
+      "claim_text": "Certaines pages malveillantes manipuleraient des vidéos et des photos sorties de leur contexte pour semer le chaos et inciter à la haine.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c3",
+      "claim_text": "La situation serait sous contrôle et les forces de l’ordre agiraient dans le strict respect de la loi.",
+      "claim_type": "event",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c4",
+      "claim_text": "Les personnes impliquées dans la diffusion de rumeurs susceptibles de troubler l’ordre public seront poursuivies conformément aux lois en vigueur.",
+      "claim_type": "responsibility",
+      "stance": "asserted"
+    }
+  ],
+  "entities": {
+    "persons": [],
+    "organizations": [
+      "Ministère de la Sécurité nationale"
+    ],
+    "locations": [],
+    "dates": [],
+    "events": [],
+    "handles": [],
+    "websites": []
+  },
+  "geolocation": {
+    "raw_text": null,
+    "normalized_name": null,
+    "country": null,
+    "admin1": null,
+    "lat": null,
+    "lon": null,
+    "confidence": null
+  },
+  "credibility_assessment": {
+    "label": "medium",
+    "score": 55,
+    "rationale": "Communiqué officiel d’un ministère. Il confirme l'existence d'une campagne de rumeurs, mais ne fournit ni exemples précis ni éléments de preuve.",
+    "evidence_present": [],
+    "verification_status": "unverified"
+  },
+  "red_flags": [
+    {
+      "type": "unsupported_claim",
+      "span_text": "Certaines pages malveillantes manipulent des vidéos et des photos",
+      "explanation": "Accusation générale sans citer d'exemples concrets ni preuves."
+    }
+  ],
+  "classification": {
+    "information_disorder": "official",
+    "topic": [
+      "security",
+      "disinformation",
+      "freedom_of_expression"
+    ],
+    "country": [],
+    "actor": [
+      "Ministère de la Sécurité nationale"
+    ],
+    "violation_type": [],
+    "crime_type": []
+  },
+  "cross_reference_needs": [
+    "Identifier les exemples concrets de vidéos/photos manipulées mentionnés dans d'autres sources.",
+    "Analyser l'utilisation de la notion de 'rumeurs' dans le contexte juridique et politique."
+  ],
+  "output_version": "1.0"
+}

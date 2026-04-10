@@ -1,0 +1,90 @@
+{
+  "document_id": "doc_0007",
+  "language": "fr",
+  "source_type": "media",
+  "source_name": "Businessnews",
+  "source_url": "https://businessnews.com.tn/2026/04/09/la-bct-nest-pas-un-etat-dans-letat-des-deputes-plaident-pour-un-financement-direct-encadre/1395789/",
+  "publication_date": "2026-04-08",
+  "retrieval_date": null,
+  "claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "Youssef Tarchoun défend une réforme du statut de la Banque centrale de Tunisie afin d'encadrer la possibilité pour l'État de recourir à un financement direct.",
+      "claim_type": "other",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c2",
+      "claim_text": "Il affirme soutenir l'indépendance de la BCT tout en refusant qu'elle soit une institution isolée ou un État dans l'État.",
+      "claim_type": "other",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c3",
+      "claim_text": "Le projet est examiné par la commission des finances, qui doit auditionner gouvernement, ministère des Finances et BCT.",
+      "claim_type": "event",
+      "stance": "asserted"
+    }
+  ],
+  "entities": {
+    "persons": [
+      "Youssef Tarchoun"
+    ],
+    "organizations": [
+      "Banque centrale de Tunisie",
+      "commission des finances",
+      "Assemblée des représentants du peuple"
+    ],
+    "locations": [
+      "Tunisie"
+    ],
+    "dates": [
+      "9 avril 2026"
+    ],
+    "events": [],
+    "handles": [],
+    "websites": []
+  },
+  "geolocation": {
+    "raw_text": "Tunisie",
+    "normalized_name": "Tunisie",
+    "country": "TN",
+    "admin1": null,
+    "lat": null,
+    "lon": null,
+    "confidence": 0.9
+  },
+  "credibility_assessment": {
+    "label": "medium",
+    "score": 70,
+    "rationale": "Article d’un média citant explicitement les déclarations d’un député, avec date, contexte institutionnel et description du processus parlementaire.",
+    "evidence_present": [
+      "déclarations publiques de Youssef Tarchoun",
+      "mention de la commission des finances"
+    ],
+    "verification_status": "partially_verified"
+  },
+  "red_flags": [],
+  "classification": {
+    "information_disorder": "reporting",
+    "topic": [
+      "monetary_policy",
+      "public_finance",
+      "institutions"
+    ],
+    "country": [
+      "TN"
+    ],
+    "actor": [
+      "Banque centrale de Tunisie",
+      "Assemblée des représentants du peuple"
+    ],
+    "violation_type": [],
+    "crime_type": []
+  },
+  "cross_reference_needs": [
+    "Vérifier le contenu exact du projet de réforme du statut de la BCT.",
+    "Comparer avec les positions d’autres partis et experts sur le financement direct encadré."
+  ],
+  "output_version": "1.0"
+}

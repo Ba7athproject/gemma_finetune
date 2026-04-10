@@ -1,0 +1,89 @@
+{
+  "document_id": "doc_0006",
+  "language": "fr",
+  "source_type": "media",
+  "source_name": "Webmanagercenter",
+  "source_url": "https://www.webmanagercenter.com/2026/04/09/563575/paypal-crypto-et-investissement-la-tunisie-sapprete-enfin-a-liberer-son-economie/",
+  "publication_date": "2026-04-08",
+  "retrieval_date": null,
+  "claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "La commission parlementaire a déposé le 29 janvier 2026 une proposition de loi pour instaurer un nouveau Code des changes en Tunisie.",
+      "claim_type": "event",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c2",
+      "claim_text": "Le nouveau code permettrait aux résidents d’ouvrir des comptes en devises étrangères sous conditions.",
+      "claim_type": "other",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c3",
+      "claim_text": "Le texte prévoit l’utilisation de plateformes internationales comme PayPal et de solutions basées sur les cryptoactifs.",
+      "claim_type": "other",
+      "stance": "asserted"
+    }
+  ],
+  "entities": {
+    "persons": [],
+    "organizations": [
+      "commission parlementaire",
+      "Assemblée des représentants du peuple",
+      "PayPal"
+    ],
+    "locations": [
+      "Tunisie"
+    ],
+    "dates": [
+      "29 janvier 2026",
+      "mars 2024"
+    ],
+    "events": [],
+    "handles": [],
+    "websites": []
+  },
+  "geolocation": {
+    "raw_text": "Tunisie",
+    "normalized_name": "Tunisie",
+    "country": "TN",
+    "admin1": null,
+    "lat": null,
+    "lon": null,
+    "confidence": 0.9
+  },
+  "credibility_assessment": {
+    "label": "medium",
+    "score": 70,
+    "rationale": "Article d’un média économique citant un processus législatif précis (proposition de loi, dates) et des dispositions détaillées.",
+    "evidence_present": [
+      "date de dépôt de la proposition de loi",
+      "description des dispositions du projet de Code des changes"
+    ],
+    "verification_status": "partially_verified"
+  },
+  "red_flags": [],
+  "classification": {
+    "information_disorder": "reporting",
+    "topic": [
+      "economy",
+      "finance",
+      "digital_payments",
+      "crypto"
+    ],
+    "country": [
+      "TN"
+    ],
+    "actor": [
+      "Assemblée des représentants du peuple"
+    ],
+    "violation_type": [],
+    "crime_type": []
+  },
+  "cross_reference_needs": [
+    "Consulter le texte officiel de la proposition de loi déposée le 29 janvier 2026.",
+    "Comparer avec les communiqués officiels du ministère des Finances et de la BCT."
+  ],
+  "output_version": "1.0"
+}

@@ -2,72 +2,85 @@
   "document_id": "doc_0001",
   "language": "fr",
   "source_type": "media",
-  "source_name": "Al Hamma News",
-  "source_url": "https://example.org/article/protestation-el-hamma",
-  "publication_date": "2025-03-12",
-  "retrieval_date": "2025-03-13",
+  "source_name": "Inkyfada",
+  "source_url": "https://inkyfada.com/fr/2026/03/06/de-luniversite-au-front-comment-des-tunisiens-se-retrouvent-dans-la-guerre-en-ukraine/",
+  "publication_date": "2026-03-06",
+  "retrieval_date": null,
   "claims": [
     {
       "claim_id": "c1",
-      "claim_text": "Selon des habitants, la police a tiré des gaz lacrymogènes pour disperser la foule.",
+      "claim_text": "Au moins sept ressortissants tunisiens ont été enrôlés dans les forces armées russes depuis le début du conflit en Ukraine.",
       "claim_type": "event",
       "stance": "asserted"
     },
     {
       "claim_id": "c2",
-      "claim_text": "Les autorités affirment qu’aucune arrestation n’a eu lieu.",
-      "claim_type": "denial",
+      "claim_text": "Le rapport d’INPACT s’appuie sur une base de données de plus de mille Africains enrôlés, vérifiée par recoupement de traces numériques.",
+      "claim_type": "other",
       "stance": "asserted"
     }
   ],
   "entities": {
     "persons": [],
-    "organizations": ["police", "autorités locales"],
-    "locations": ["El Hamma", "gouvernorat de Gabès"],
-    "dates": ["mardi soir"],
-    "events": ["manifestation"],
+    "organizations": [
+      "INPACT",
+      "forces armées russes"
+    ],
+    "locations": [
+      "Ukraine",
+      "Russie",
+      "Tunisie"
+    ],
+    "dates": [],
+    "events": [
+      "conflit en Ukraine"
+    ],
     "handles": [],
     "websites": []
   },
   "geolocation": {
-    "raw_text": "El Hamma, dans le gouvernorat de Gabès",
-    "normalized_name": "El Hamma",
-    "country": "TN",
-    "admin1": "Gabès",
-    "lat": 33.8850,
-    "lon": 9.7960,
-    "confidence": 0.85
+    "raw_text": "Ukraine",
+    "normalized_name": "Ukraine",
+    "country": "UA",
+    "admin1": null,
+    "lat": null,
+    "lon": null,
+    "confidence": 0.9
   },
   "credibility_assessment": {
-    "label": "medium",
-    "score": 60,
-    "rationale": "Média local citant des habitants et les autorités, sans documents officiels ni preuves visuelles publiées.",
-    "evidence_present": ["eyewitness_testimony", "official_statement"],
+    "label": "high",
+    "score": 80,
+    "rationale": "Enquête d’un média indépendant citant un rapport spécialisé (INPACT) et une base de données documentée, avec recoupement de traces numériques.",
+    "evidence_present": [
+      "rapport INPACT",
+      "base de données de 1417 ressortissants africains",
+      "recoupement de traces numériques"
+    ],
     "verification_status": "partially_verified"
   },
-  "red_flags": [
-    {
-      "type": "unsupported_claim",
-      "span_text": "la police a tiré des gaz lacrymogènes",
-      "explanation": "Aucune image ou vidéo publiée pour corroborer l'usage de gaz lacrymogènes."
-    },
-    {
-      "type": "sensational_language",
-      "span_text": "la ville était en état de siège",
-      "explanation": "Expression exagérée qui n'est pas étayée par des détails factuels."
-    }
-  ],
+  "red_flags": [],
   "classification": {
     "information_disorder": "reporting",
-    "topic": ["protest", "policing"],
-    "country": ["TN"],
-    "actor": ["police", "autorités locales"],
-    "violation_type": ["freedom_of_assembly"],
+    "topic": [
+      "conflict",
+      "foreign_fighters",
+      "russia",
+      "ukraine"
+    ],
+    "country": [
+      "TN",
+      "RU",
+      "UA"
+    ],
+    "actor": [
+      "forces armées russes"
+    ],
+    "violation_type": [],
     "crime_type": []
   },
   "cross_reference_needs": [
-    "Vérifier l'usage de gaz lacrymogènes via vidéos OSINT et témoignages supplémentaires.",
-    "Comparer les déclarations des autorités avec des rapports d’ONG locales."
+    "Consulter directement le rapport d’INPACT cité par l’article.",
+    "Vérifier les données via d’autres sources (ONG, autorités, OSINT ouvert)."
   ],
   "output_version": "1.0"
 }

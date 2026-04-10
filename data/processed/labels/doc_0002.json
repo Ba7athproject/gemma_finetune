@@ -1,0 +1,97 @@
+{
+  "document_id": "doc_0002",
+  "language": "fr",
+  "source_type": "social",
+  "source_name": "Post Facebook anonyme",
+  "source_url": null,
+  "publication_date": null,
+  "retrieval_date": null,
+  "claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "Des centaines de migrants armés sont arrivés cette nuit dans le quartier près de la gare de S.",
+      "claim_type": "event",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c2",
+      "claim_text": "Ces migrants seraient payés pour remplacer les Tunisiens et changer la démographie du pays.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    },
+    {
+      "claim_id": "c3",
+      "claim_text": "Les autorités et les médias cachent volontairement la vérité sur cette situation.",
+      "claim_type": "accusation",
+      "stance": "asserted"
+    }
+  ],
+  "entities": {
+    "persons": [],
+    "organizations": [],
+    "locations": [
+      "quartier près de la gare de S"
+    ],
+    "dates": [
+      "cette nuit"
+    ],
+    "events": [],
+    "handles": [],
+    "websites": []
+  },
+  "geolocation": {
+    "raw_text": "quartier près de la gare de S",
+    "normalized_name": null,
+    "country": null,
+    "admin1": null,
+    "lat": null,
+    "lon": null,
+    "confidence": null
+  },
+  "credibility_assessment": {
+    "label": "low",
+    "score": 15,
+    "rationale": "Post anonyme sur réseau social, aucune source identifiable, aucune preuve, langage complotiste et alarmiste.",
+    "evidence_present": [],
+    "verification_status": "unverified"
+  },
+  "red_flags": [
+    {
+      "type": "no_source",
+      "span_text": "On m’a dit qu’ils sont payés pour remplacer les Tunisiens",
+      "explanation": "Aucune source citée, information présentée comme un on-dit."
+    },
+    {
+      "type": "sensational_language",
+      "span_text": "URGENT ‼️", 
+      "explanation": "Utilisation d’un langage alarmiste pour pousser au partage."
+    },
+    {
+      "type": "unsupported_claim",
+      "span_text": "Des centaines de migrants armés sont arrivés cette nuit",
+      "explanation": "Grave accusation sans preuve, ni détails vérifiables (lieu exact, heure, sources)."
+    },
+    {
+      "type": "unsupported_claim",
+      "span_text": "changer la démographie du pays",
+      "explanation": "Narratif complotiste sans données ni sources."
+    }
+  ],
+  "classification": {
+    "information_disorder": "disinformation",
+    "topic": [
+      "migration",
+      "security",
+      "racism"
+    ],
+    "country": [],
+    "actor": [],
+    "violation_type": [],
+    "crime_type": []
+  },
+  "cross_reference_needs": [
+    "Vérifier l'existence d'incidents signalés près de la gare de S cette nuit-là via sources officielles et médias fiables.",
+    "Comparer avec des rapports d'ONG et d'observateurs sur les rumeurs visant les migrants."
+  ],
+  "output_version": "1.0"
+}
